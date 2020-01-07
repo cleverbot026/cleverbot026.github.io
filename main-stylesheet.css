@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+section.backcover {
+
+	background: url("bg.png") no-repeat;
+	background-size: cover;
+	margin-left: -10px;
+	width: 1688px;
+	height: 900px;
+	font-family: 'Calistoga', cursive;
+
+}
+
+#header-title {
+
+	margin-top: 300px;
+
+}
+
+
+.header {
+
+	display: flex;
+	justify-content: center;
+	font-size: 100px;
+
+}
+
+
+#wrapper {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sticky {
+
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+body {
+
+	background: #2F4858;
+	font-family: "Century Gothic";
+	color: white;
+}
+
+#logo {
+
+	width: 100px;
+	height:100px;
+}
+
+header * {
+	font-family: 'Calistoga', cursive;
+	display: inline;
+
+}
+
+header h1 {
+	font-size: 90px;
+}
+
+header {
+
+	display: flex;
+	align-items: center;
+
+	margin-left: -10px;
+
+	margin-top: 80px;
+	background: #F26419;
+	width: 100%;
+	height: 300px; 
+}
+
+
+
+nav a {
+
+	padding: 10px 10px 10px 10px;
+	margin-left: 10px;
+	border: 1px #33658A solid;
+	text-decoration: none;
+	color: #EFEFEF;
+
+
+}
+
+nav a:hover {
+
+	border: 1px #EFEFEF solid; 
+
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	background-color: #33658A;
+	height: 10%;
+}
+
+nav p {
+
+	display: flex;
+	justify-content: flex-start;
+}
+
+#profile {
+
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+#featured-images {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 40px;
+	width: 1688px;
+	height: 900px;
+	background-color: #33658A;
+}
+
+.row1 {
+
+	text-align: center;
+}
+
+.row2 {
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.profilesec  {
+
+	background-color: #33658A;
+	width: 1688px;
+	height: 900px;
+	display: flex;
+	justify-content: center;
+
+	margin-left: -10px;
+
+}
+
+.profilesec div{
+	margin-top: 260px;
+}
+
+.profilesec div h2 {
+
+	font-size: 50px;
+	padding-left: 50px;
+}
+
+.profilesec div blockquote {
+
+	font-size: 20px;
+	padding-left: 80px;
+	font-style: italic;
+
+}
+
+
+.educsec {
+
+	display: grid;
+	grid-template-columns: 100%;
+	width: 1688px;
+	height: 900px;
+	margin-left: -10px;
+}
+
+.box1 {
+
+	margin-top: 40px;
+	text-align: center;
+	font-size: 90px;
+}
+
+.box2 {
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.box2 h4 {
+
+	font-size: 30px;
+	text-align: center;
+}
+
+.box2 p {
+
+	font-size: 20px;
+}
